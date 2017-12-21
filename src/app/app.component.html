@@ -1,1 +1,8 @@
-<h1>Welcome to {{ title }}!</h1>
+<div class="container">
+    <h2>Welcome to {{ title }}!</h2>
+    <div class="well well-lg">
+        <button type="button" class="btn btn-primary" (click)="modalAlert()">Modal Alert</button>
+        <button type="button" class="btn btn-primary" (click)="modalConfirm()">Modal Confirm</button>
+        <button type="button" class="btn btn-primary" (click)="modalOpen()">Modal Open</button>
+    </div>
+</div>

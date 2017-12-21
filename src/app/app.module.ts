@@ -1,18 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { ModalModule } from 'ngx-modialog';
+import { BootstrapModalModule } from 'ngx-modialog/plugins/bootstrap';
 import { AppComponent } from './app.component';
-
+import { AppDialogComponent } from './app.dialog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppDialogComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ModalModule.forRoot(),
+    BootstrapModalModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    AppDialogComponent
+  ]
 })
 export class AppModule { }
