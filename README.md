@@ -6,6 +6,9 @@
 >### Key Functionality:
 * Dialog Modal with [ngx-modialog](https://github.com/shlomiassaf/ngx-modialog)
 
+## Demo
+[Click here](https://stackblitz.com/github/ashfaqch/angular-modal-dialog-example)
+
 ## Running the Application
 1. Run `npm install`
 1. Run `ng serve`
