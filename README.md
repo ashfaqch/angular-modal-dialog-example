@@ -6,7 +6,7 @@
 >### Key Functionality:
 * Dialog Modal with [ngx-modialog](https://github.com/shlomiassaf/ngx-modialog)
 
-## Demo
+>### Demo
 [Click here](https://stackblitz.com/github/ashfaqch/angular-modal-dialog-example)
 
 ## Running the Application

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DialogRef, ModalComponent } from 'ngx-modialog';
 import { AppDialogComponentContext } from './app.dialog.component.context';
+//import { bootstrap3Mode  } from 'ngx-modialog/plugins/bootstrap';
+//bootstrap3Mode();
 
 @Component({
     templateUrl: './app.dialog.component.html'
